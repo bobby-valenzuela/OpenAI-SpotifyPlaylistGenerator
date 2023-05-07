@@ -36,10 +36,8 @@ Base code taken from Colt Steele's OpenAI course - all modifications/changes are
 
 ## Usage
 
-The `--model` parameter is optional and will default to `gpt-3.5-turbo`
+The `-envfile` parameter is optional and will default to `.env`
 
 ```bash
-python3 spotifyplaylister.py <file> --model <model>
+python3 spotifyplaylister.py -p <phrase> -n <number_of_songs>
 ```  
-
-![Alt text](./samplecode_demo.png?raw=true "Demo 1")
